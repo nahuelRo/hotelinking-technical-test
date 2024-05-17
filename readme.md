@@ -18,7 +18,7 @@ Este proyecto utiliza una arquitectura cliente-servidor donde el backend está d
    git clone https://github.com/nahuelRo/hotelinking-technical-test.git
    ```
 
-2. Coloca la carpeta `backend` en la carpeta correspondiente del servidor local (por ejemplo, en `www` para XAMPP o Laragon).
+2. Coloca la carpeta `backend` y `frontend` en la carpeta correspondiente del servidor local (por ejemplo, en `www` para XAMPP o Laragon).
 
 3. Navega hasta la carpeta del backend:
 
