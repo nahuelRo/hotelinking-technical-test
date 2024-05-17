@@ -20,39 +20,41 @@ Este proyecto utiliza una arquitectura cliente-servidor donde el backend está d
 
 2. Coloca la carpeta `backend` y `frontend` en la carpeta correspondiente del servidor local (por ejemplo, en `www` para XAMPP o Laragon).
 
-3. Navega hasta la carpeta del backend:
+3. Iniciar los servicios de XAMPP o Laragon
+
+4. Navega hasta la carpeta del backend:
 
    ```bash
    cd backend
    ```
 
-4. Instala las dependencias de Composer:
+5. Instala las dependencias de Composer:
 
    ```bash
    composer install
    ```
 
-5. Copia el archivo `.env.example` y renómbralo a `.env`.
+6. Copia el archivo `.env.example` y renómbralo a `.env`.
 
-6. Genera una nueva clave de aplicación:
+7. Genera una nueva clave de aplicación:
 
    ```bash
    php artisan key:generate
    ```
 
-7. Ejecuta las migraciones para crear las tablas en la base de datos:
+8. Ejecuta las migraciones para crear las tablas en la base de datos:
 
    ```bash
    php artisan migrate
    ```
 
-8. Opcionalmente, puedes poblar la base de datos con datos de prueba ejecutando los seeders:
+9. Opcionalmente, puedes poblar la base de datos con datos de prueba ejecutando los seeders:
 
    ```bash
    php artisan db:seed
    ```
 
-9. Inicia el servidor de desarrollo de Laravel:
+10. Inicia el servidor de desarrollo de Laravel:
 
    ```bash
    php artisan serve
