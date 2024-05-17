@@ -87,7 +87,7 @@ El backend estará disponible en `http://localhost:8000`.
 3. Inicia la aplicación de React:
 
    ```bash
-   npm start
+   npm run start
    # o
    yarn start
    ```
